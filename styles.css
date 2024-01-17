@@ -1,0 +1,90 @@
+body{
+    font-family: Calibri;
+    font-size: 150%;
+    color: white;
+    background-color: #000025;
+}
+input{
+    font-size: 20px;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+a{
+    text-decoration-line: none;
+    text-align: center;
+}
+#logout {
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px rgb(89, 177, 1) solid;
+    border-radius: 5px;
+    width: 160px;
+    background-color: rgb(89, 177, 1);
+    color: white;
+}
+#logout:hover {
+    background-color: white;
+    color: #000025;
+}
+.account {
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 30%;
+    float: left;
+    text-align: center;
+}
+#register_window {
+    margin-top: 14%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+#login_window {
+    margin-top: 14%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+#register_button {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px rgb(89, 177, 1) solid;
+    border-radius: 5px;
+    width: 250px;
+    background-color: rgb(89, 177, 1);
+    color: white;
+}
+#login_button {
+    font-size: 25px;
+    padding: 10px;
+    border: 1px rgb(20, 94, 255) solid;
+    border-radius: 5px;
+    width: 250px;
+    color: white;
+    background-color: rgb(20, 94, 255);
+}
+#login_button:hover{
+    color: black;
+    background-color: white;
+}
+#register_button:hover {
+    color: black;
+    background-color: white;
+}
+#passreset {
+    font-size: 15px;
+    color: blue;
+}
+#account {
+    background-color: white;
+    width: 100%;
+    float: right;
+    text-align: center;
+}
